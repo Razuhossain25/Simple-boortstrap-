@@ -1,0 +1,21 @@
+{
+  "name": "unityhands-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "seed": "node seed.js",
+    "test": "node --test index.test.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.3",
+    "jose": "^5.9.6",
+    "mongodb": "^6.9.0"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  }
+}
